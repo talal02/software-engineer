@@ -1,4 +1,4 @@
-# Day One: Embarking on the Journey to Software Engineering
+# Lesson One: Embarking on the Journey to Software Engineering
 
 Hello everyone! Today marks the very first day of my journey into the world of software engineering. I'm excited to commit at least **one hour daily** to learning and growing in this field. Whether you're just starting out or looking for some motivation, I hope you'll find these reflections and notes inspiring and helpful.
 
