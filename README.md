@@ -49,3 +49,4 @@ All credit for the course content goes to **Leon Noel**, the creator of **100Dev
 4. Leave a ⭐ if you find these notes helpful!
 
 Happy coding! 💻✨
+Dankeschön!
