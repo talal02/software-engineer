@@ -1,17 +1,17 @@
-# 100Devs HTML Notes 🚀 <>
+# 100Devs HTML Notes 🚀
 
 Welcome to my repository of notes for the **100Devs** course! This is a collection of my personal notes and summaries from Leon's amazing lessons. I'm following along with his videos and creating these notes to solidify my understanding of HTML and web development. Feel free to use them as a reference or to follow along with the course!
 
 ---
 
-## 📚 About the Course <>
+## 📚 About the Course
 **100Devs** is a free, comprehensive web development bootcamp created by **Leon Noel**. It's designed to take you from zero to a full-stack software engineer, covering everything from HTML, CSS, and JavaScript to advanced topics like React, Node.js, and more. Leon's teaching style is engaging, practical, and beginner-friendly, making it perfect for anyone looking to break into tech.
 
 You can learn more about the course here: [100Devs Official Website](https://100devs.org)
 
 ---
 
-## 📂 Lessons Overview <>
+## 📂 Lessons Overview
 
 ### [Lesson 01: Embarking on the Journey to Software Engineering](./class01/lesson01.md)
 - **What You'll Learn**:
@@ -35,14 +35,17 @@ You can learn more about the course here: [100Devs Official Website](https://100
   - Use the right tags for the right purpose.
   - Progressive enhancement: Start with HTML, then add CSS and JS.
 
+### [Lesson 03: More About HTML](./class03/lesson03.md)
+- TBD!!!!!!!!
+
 ---
 
-## 🙏 Credits <>
+## 🙏 Credits
 All credit for the course content goes to **Leon Noel**, the creator of **100Devs**. I'm simply following along with his lessons and creating these notes to reinforce my learning. If you're interested in joining the course, check out the [100Devs YouTube channel](https://www.youtube.com/c/LeonNoel) for the full playlist.
 
 ---
 
-## 🚀 How to Use This Repository <>
+## 🚀 How to Use This Repository
 1. Click on the lesson links above to view my notes.
 2. Follow along with Leon's videos to get the full context.
 3. Practice the concepts by coding along with the examples.
