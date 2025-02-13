@@ -52,3 +52,46 @@ Code - Newspaper Time Two
 - Wallah! You have your first code on Glitch
 - Share the link
 
+## HTML Structure
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Stuff the browser needs to know about -->
+  </head>
+  <body>
+    <!-- Stuff the user sees -->
+     <h1>Hello World</h1>
+  </body>
+</html>
+```
+- Parent child relationship being used here
+- head and body are children of html
+- h1 is a child of body
+- You can see someone's body but not whats going on in their head
+- You can intereact with someone's body but not with their head
+- Every single thing that we coded in brownies recipe is a child of body
+
+## New HTML Tags
+- Navigation
+```html
+<nav>
+  <ul>
+    <li><a href="news.html">News</a></li>
+    <li><a href="sports.html">Sports</a></li>
+    <li><a href="weather.html">Weather</a></li>
+  </ul>
+</nav>
+```
+
+### How to get data from the user?
+- Form
+```html
+<form action="submit.html" method="post">
+  <!-- Data Collection Elements -->
+</form>
+```
+- Input types - text, email, password, radio, checkbox, submit, button
+
+## Progressive Enhancement
+-- Really important concept, we should build website in a way that firstly focus on content that is HTML and then add CSS and JS to make it look good and interactive
