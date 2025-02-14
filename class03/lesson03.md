@@ -91,7 +91,7 @@ Code - Newspaper Time Two
   <!-- Data Collection Elements -->
 </form>
 ```
-- Input types - text, email, password, radio, checkbox, submit, button
+- (Input types) - text, email, password, radio, checkbox, submit, button
 
 ## Progressive Enhancement
 -- Really important concept, we should build website in a way that firstly focus on content that is HTML and then add CSS and JS to make it look good and interactive
