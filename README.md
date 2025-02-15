@@ -35,8 +35,16 @@ You can learn more about the course here: [100Devs Official Website](https://100
   - Use the right tags for the right purpose.
   - Progressive enhancement: Start with HTML, then add CSS and JS.
 
-### [Lesson 03: More About HTML](./class03/lesson03.md)
-- TBD!!!!!!!!
+### [Lesson 03: HTML Foundations & Progressive Enhancement](./class03/lesson03.md)
+- **What You'll Learn**:
+  - Deeper understanding of HTML structure.
+  - New HTML tags like `<nav>` and `<form>`.
+  - The concept of Progressive Enhancement.
+  - Hands-on practice with a newspaper and Khan Academy layout.
+- **Key Takeaways**:
+  - HTML is the backbone—content first, styling later.
+  - Keep a clean, structured hierarchy in your code.
+  - Build websites that work even with **only HTML**.
 
 ---
 
