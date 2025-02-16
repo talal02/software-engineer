@@ -163,4 +163,4 @@ Forms let users enter data like emails, passwords, and feedback!
 ✅ **Ask for help in Discord** 💬  
 ✅ **Rewatch the lesson video** 📺  
 ✅ **Experiment! Mess around with the code** 🧪  
-✅ **Check MDN Docs** → [MDN HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+✅ **Check MDN Docs** → [MDN HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML)
