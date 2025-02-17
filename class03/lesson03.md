@@ -154,7 +154,7 @@ Forms let users enter data like emails, passwords, and feedback!
 📌 **TechCrunch Layout** → ![TechCrunch](https://communitytaught.org/img/resources/techcrunch.png)  
 📌 **Khan Academy Layout** → ![Khan Academy](https://communitytaught.org/img/resources/khan-academy.png)  
 
-📖 **Reading:** [Learn Layout](https://learnlayout.com/)  
+📖 **Reading:** [Learn Layout](./learnlayout.md)
 
 ---
 
