@@ -151,8 +151,8 @@ Forms let users enter data like emails, passwords, and feedback!
 
 🚀 **Challenge yourself!** Recreate the HTML structure of these websites:  
 
-📌 **TechCrunch Layout** → ![TechCrunch](https://communitytaught.org/img/resources/techcrunch.png)  
-📌 **Khan Academy Layout** → ![Khan Academy](https://communitytaught.org/img/resources/khan-academy.png)  
+📌 **TechCrunch Layout** → [TechCrunch](https://www.techcruch.com)
+📌 **Khan Academy Layout** → [Khan Academy](https://www.khanacademy.com)
 
 📖 **Reading:** [Learn Layout](./learnlayout.md)
 
