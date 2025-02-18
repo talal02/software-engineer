@@ -46,6 +46,8 @@ You can learn more about the course here: [100Devs Official Website](https://100
   - Keep a clean, structured hierarchy in your code.
   - Build websites that work even with **only HTML**.
 
+### [Lesson 03: HTML Foundations & Progressive Enhancement](./class03/lesson03.md)
+
 ---
 
 ## 🙏 Credits
