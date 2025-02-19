@@ -98,5 +98,14 @@ p {
 - You shall always have link tag before the css file link tag in the head of the html file. Again cascading, if you have css file link tag before the link tag of the font, then the font will not be applied.
 - Fall back font is `sans-serif`, if the font is not available, then the browser will use the `sans-serif` font.
 - Go to fonts.google.com, select a font, and then copy the link tag and paste it in the head of the html file in order to use that font.
+- Make sure to have weight of the font, if you want to use a specific weight of the font, then you can add that in the link tag. For speed you should use only the weight you need.
 
+- Need Help with CSS?
+- Use MDN Web Docs, it's the best resource for CSS.
+- How to research CSS?
+- Google "concept name + MDN", and you will get the MDN link.
+- Also, you can use https://learn.shayhowe.com, it's a great resource for learning CSS.
 
+### Let's Code
+- Download the class04 materials from this link https://drive.google.com/file/d/1nb5QadNC2Z1x2oqH9zIMZFVbYjarM5Br/view
+- Open the class04 folder in VS Code.
