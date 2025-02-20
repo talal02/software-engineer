@@ -46,7 +46,16 @@ You can learn more about the course here: [100Devs Official Website](https://100
   - Keep a clean, structured hierarchy in your code.
   - Build websites that work even with **only HTML**.
 
-### [Lesson 03: HTML Foundations & Progressive Enhancement](./class03/lesson03.md)
+### [Lesson 04: Forms and Inputs](./class04/lesson04.md)
+- **What You'll Learn**:
+  - The importance of forms in web development.
+  - How to create and structure forms using `<form>`, `<input>`, `<textarea>`, `<select>`, and more.
+  - Understanding form attributes like `action`, `method`, `name`, `placeholder`, and `required`.
+  - Handling user input with various input types: `text`, `email`, `password`, `radio`, `checkbox`, `submit`, etc.
+- **Key Takeaways**:
+  - Forms are essential for user interaction and data collection.
+  - Always use proper form validation for better user experience and security.
+  - Different input types serve different purposes—choose wisely.
 
 ---
 
