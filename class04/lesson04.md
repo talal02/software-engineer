@@ -110,3 +110,105 @@ p {
 - Download the class04 materials from this link https://drive.google.com/file/d/1nb5QadNC2Z1x2oqH9zIMZFVbYjarM5Br/view
 - Open the class04 folder in VS Code.
 - For the first week, forget about live server, just open the html file in the browser and save the changes in the html file and refresh the browser to see the changes.
+
+### Selecting By Relationship
+- Direct Parent / Child Relationship
+```html
+<section>
+  <p>Hello, Twitch!</p>
+</section>
+```
+```css
+section > p {
+  color: red;
+}
+```
+- In above example, we are selecting the `p` tag which is a child of `section` tag. This is called parent / child selector.
+- `>` is the child selector.
+
+- Parent / Child Relationship
+```html
+<section>
+  <article>
+    <p>Hello, Twitch!</p>
+  </article>
+</section>
+```
+```css
+section p {
+  color: red;
+}
+```
+- In above example, we are selecting the `p` tag which is a child of `section` tag. This is called parent / child selector.
+- p is not a direct child of section, but it is a child of article which is a child of section, so this is called parent / child selector.
+- There is a space between `section` and `p`, this is called parent / child selector.
+
+- Previous Sibling / Next Sibling
+```html
+<section>
+  <p>Hello, Twitch!</p>
+  <p>Hello, Youtube!</p>
+</section>
+```
+```css
+p + p {
+  color: red;
+}
+```
+- In above example, we are selecting the second `p` tag which is a sibling of the first `p` tag. This is called previous sibling / next sibling selector.
+- `+` is the sibling selector.
+
+### Back to code
+- Open the class04 folder in VS Code.
+- Relationship-CSS folder.
+
+### Classes & IDs
+- We got to be more specific with our CSS.
+- ID: `#`
+- Id is unique, you can only have one id on a page.
+```html
+<section>
+  <p>Hello, Twitch!</p>
+  <p id="zebra">Hello, Youtube!</p>
+</section>
+```
+```css
+#zebra {
+  color: red;
+}
+```
+- In above example, we are selecting the `p` tag which has an id of `zebra`. This is called id selector.
+- Class: `.`
+- Class is not unique, you can have multiple classes on a page.
+```html
+<section>
+  <p class="robot">Hello, Twitch!</p>
+  <p class="bob" id="zebra">Hello, Youtube!</p>
+  <p class="bob">Hello, Mixer!</p>
+</section>
+```
+```css
+.bob {
+  color: red;
+}
+#zebra {
+  color: blue;
+}
+```
+- In above example, we are selecting the `p` tag which has a class of `bob`. This is called class selector.
+- In above example, we are selecting the `p` tag which has an id of `zebra`. This is called id selector.
+- You can have multiple classes on a tag, but you can only have one id on a tag.
+- This css will make the color of the `p` tag with class `bob` to red and the color of the `p` tag with id `zebra` to blue.
+
+- IDs have 100 points, classes have 10 points, and elements have 1 point.
+- Other !important, Inline, and Inline Styles have 1000 points.
+- The more points you have, the more specific you are.
+
+
+- Why its not good to use inline styles?
+- Because it's hard to override them. Inline styles have 1000 points, so you need to have 1001 points to override them.
+- Inline styles are the most specific, so they are hard to override.
+
+- Homework:
+- Simple Site Lab (Write HTML & CSS for a simple site) - https://communitytaught.org/img/resources/simple-site-lab.png
+- Finish reading learnlayout from - https://learnlayout.com
