@@ -1,0 +1,6 @@
+h1 {
+  color: blue;
+  text-decoration: underline;
+  background-color: gold;
+} # rule for h1 with 3 declarations (color, text-decoration, background-color)
+
