@@ -109,3 +109,4 @@ p {
 ### Let's Code
 - Download the class04 materials from this link https://drive.google.com/file/d/1nb5QadNC2Z1x2oqH9zIMZFVbYjarM5Br/view
 - Open the class04 folder in VS Code.
+- For the first week, forget about live server, just open the html file in the browser and save the changes in the html file and refresh the browser to see the changes.
