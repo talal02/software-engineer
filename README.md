@@ -1,4 +1,4 @@
-# 100Devs HTML Notes 🚀
+# 100Devs HTML Notes 🚀 
 
 Welcome to my repository of notes for the **100Devs** course! This is a collection of my personal notes and summaries from Leon's amazing lessons. I'm following along with his videos and creating these notes to solidify my understanding of HTML and web development. Feel free to use them as a reference or to follow along with the course!
 
