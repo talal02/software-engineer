@@ -57,6 +57,18 @@ You can learn more about the course here: [100Devs Official Website](https://100
   - Understanding the box model is crucial for layout design.
   - External CSS is the best practice for maintainability.
 
+### [Lesson 05: Learn CSS Layout](./class05/lesson05.md)
+- **What You'll Learn**:
+  - Understanding the **Box Model**: content, padding, border, and margin.
+  - How elements take up space and interact with each other.
+  - Introduction to **CSS Layouts** using `float`.
+  - Hands-on practice with creating simple layouts.
+- **Key Takeaways**:
+  - The **Box Model** is fundamental for understanding layout behavior.
+  - `float` was widely used for layouts before Flexbox and Grid.
+  - `clear: both;` helps manage float-related layout issues.
+  - Using `box-sizing: border-box;` ensures accurate width calculations.
+
 ---
 
 ## 🙏 Credits
