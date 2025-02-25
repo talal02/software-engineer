@@ -69,6 +69,10 @@ We will create a layout with a **header, footer, and three sections**.
 
 #### **CSS Styling**
 ```css
+* {
+box-sizing: border-box;
+}
+
 header, footer {
   background-color: #333;
   color: white;
@@ -79,12 +83,12 @@ header, footer {
 
 section {
   float: left;
-  width: 33%;
+  width: 33.3333%;
   height: 300px;
   background-color: #f4f4f4;
   border: 1px solid #ccc;
   text-align: center;
-  line-height: 300px; /* Centering content */
+  line-height: 300px;
 }
 ```
 
