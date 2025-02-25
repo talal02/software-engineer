@@ -110,21 +110,6 @@ section {
 }
 ```
 
----
-
-## 🏆 **Homework: Create 3 Simple Layouts**
-1. **A blog post layout** with a header, sidebar, and main content.
-2. **A portfolio grid** with multiple image sections.
-3. **A card-based UI** similar to a product listing page.
-
----
-
-## ✅ **Key Takeaways**
-- The **Box Model** determines how elements take up space.
-- `float` can create **multi-column layouts**, but Flexbox and Grid are preferred today.
-- `box-sizing: border-box;` ensures accurate width calculations.
-- `clear: both;` prevents floating issues.
-
 ## 🏠 **Homework**
 ✅ **Code 3 Simple Layouts** – No Grid or Flexbox, only float.
 | Layout | Preview |
@@ -133,7 +118,14 @@ section {
 | **2nd Layout** | [![Layout 2](https://communitytaught.org/img/resources/layout2.png)](https://communitytaught.org/img/resources/layout2.png) |
 | **3rd Layout** | [![Layout 3](https://communitytaught.org/img/resources/layout3.png)](https://communitytaught.org/img/resources/layout3.png) |
 ✅ **Read Shay Howe** – [Responsive Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
- 
+
+---
+
+## ✅ **Key Takeaways**
+- The **Box Model** determines how elements take up space.
+- `float` can create **multi-column layouts**, but Flexbox and Grid are preferred today.
+- `box-sizing: border-box;` ensures accurate width calculations.
+- `clear: both;` prevents floating issues. 
 
 ---
 
