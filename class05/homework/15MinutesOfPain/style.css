@@ -1,0 +1,18 @@
+header {
+  height: 200px;
+  background-color: aqua;
+}
+
+footer {
+  height: 200px;
+  clear: both;
+  background-color: blueviolet;
+}
+
+section {
+  height: 300px;
+  background-color: burlywood;
+  border: 1px solid black;
+  float: left;
+  width: 33.1%;
+}

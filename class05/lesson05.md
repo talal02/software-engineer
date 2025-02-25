@@ -10,180 +10,64 @@
 
 ## 🌍 **Learn - Box Model**
 
-### What is CSS?
-CSS (Cascading Style Sheets) is the language used to style web pages, giving them color, layout, and design.
+### What is Box Model?
+- Every element in HTML is a box.
+- Box model is concered with why things take up space and how to control that space.
+- Box model is a way to understand how elements are laid out on a page.
+- Let's have a section with 100px height and 100px width.  
+  ![Box Model](images/box-model.png)
+- Going horizontally we have width, padding, border.
+- Going vertically we have height, padding, border.
+- Margin is the space outside the border.
+- Lets give this border 5px solid red.
+![Box Model](images/box-model-2.png)
+- How wide is this model now? 
+  `100px (width) + 10px (border) = 110px`
+- How tall is this model now? 
+  `100px (height) + 10px (border) = 110px`
+- Let's add padding on right side of 20px (Green).
+- Padding is inside the border and pushes the content away from the border.
+![Box Model](images/box-model-3.png)
+- How wide is this model now? 
+  `100px (width) + 10px (border) + 20px (padding) = 130px`
+- If I have 300px wide section, how many of above sections can I fit in?
+  `300px / 130px = 2`
+- So, if I have 3rd it will go to the next line.
 
-### **Where Does CSS Go?**
-1. **External CSS (Best Practice)** – Stored in a separate `.css` file and linked in the `<head>`.
-   ```html
-   <link rel="stylesheet" href="css/styles.css">
-   ```
-2. **Internal CSS** – Placed inside `<style>` tags within the `<head>`.
-3. **Inline CSS** – Written directly within an HTML tag using `style` attributes.
-   ```html
-   <p style="color: red;">Hello!</p>
-   ```
-4. **Amazon’s Approach** – Keep critical styles in the `<head>` to speed up page rendering.
+### Time for Some Layouts
+- Let's talk about float...
+- Flexbox and Grid are far better than float.
+- But, float is still used in some cases. So, let's learn it.
+- Let's create a simple layout with float.
+- Float needs percentages, so we need to set width in percentage.
+- Whenever you use float, they will fight as hard as possible to go to the right or left corner.
 
-### **CSS Syntax**
-CSS follows a simple syntax:
-```css
-selector {
-  property: value;
-}
-```
-Example:
-```css
-p {
-  color: red;
-  font-size: 16px;
-}
-```
-- `p` → **Selector** (targets paragraph elements)
-- `color` → **Property** (what you want to change)
-- `red` → **Value** (new style)
-
-### **Understanding Cascading**
-CSS reads styles **top to bottom**. If multiple rules apply to an element, the last rule wins.
-```css
-p {
-  color: red;
-}
-p {
-  color: blue;
-}
-```
-The paragraph will be **blue** because the last rule overrides the first.
-
-### **Ways to Define Colors**
-1. **Named Colors**
-   ```css
-   color: yellow;
-   ```
-2. **Hex Codes**
-   ```css
-   color: #ffff00;
-   ```
-3. **RGB**
-   ```css
-   color: rgb(255, 255, 0);
-   ```
-4. **HSL**
-   ```css
-   color: hsl(60, 100%, 50%);
-   ```
-🔹 **Hex & RGB are the most commonly used in professional projects.**
-
-### **Fonts & Google Fonts**
-1. Link a Google Font in your `<head>`:
-   ```html
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-   ```
-2. Apply the font in CSS:
-   ```css
-   p {
-     font-family: 'Roboto', sans-serif;
-   }
-   ```
-3. **Tip:** Always place the font link **before** your CSS file link for proper loading.
-
----
-
-## 🎯 **Selecting Elements by Relationship**
-
-### **Parent > Child Selector**
-Targets **direct** child elements.
-```css
-section > p {
-  color: red;
-}
-```
+### 15 Minutes of PAIN
+- We got a header, footer and 3 sections.
+- Each section is 300px tall.
+![Simple Layout](images/box-model-4.png)
+- We need 3 sections next to each other maybe 33% width.
 ```html
-<section>
-  <p>Hello, World!</p> <!-- Selected -->
-</section>
+<body>
+  <header>Header</header>
+  <section>Section 1</section>
+  <section>Section 2</section>
+  <section>Section 3</section>
+  <footer>Footer</footer>
+</body>
 ```
-
-### **Parent Space Child Selector**
-Targets **all** children inside the parent.
 ```css
-section p {
-  color: blue;
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+section {
+  float: left;
+  width: 33%;
+  height: 300px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
 }
 ```
-```html
-<section>
-  <article>
-    <p>Hello, World!</p> <!-- Selected -->
-  </article>
-</section>
-```
-
-### **Sibling Selector (`+`)**
-Selects an **adjacent sibling**.
-```css
-p + p {
-  color: green;
-}
-```
-```html
-<section>
-  <p>First paragraph</p>
-  <p>Second paragraph</p> <!-- Selected -->
-</section>
-```
-
----
-
-## 🔥 **Classes & IDs**
-
-### **ID Selector (`#`)**
-IDs are **unique** and should only be used once per page.
-```css
-#zebra {
-  color: red;
-}
-```
-```html
-<p id="zebra">This is unique!</p>
-```
-
-### **Class Selector (`.`)**
-Classes can be used multiple times.
-```css
-.robot {
-  color: blue;
-}
-```
-```html
-<p class="robot">Hello, Twitch!</p>
-<p class="robot">Hello, YouTube!</p>
-```
-
-### **Specificity Rules**
-1. **Element (p, h1, div)** → **1 point**
-2. **Class (`.class`)** → **10 points**
-3. **ID (`#id`)** → **100 points**
-4. **Inline Styles (`style=""`)** → **1000 points**
-5. **`!important`** → Overrides all other styles!
-
-🚨 **Avoid inline styles!** They are hard to override and maintain.
-
----
-
-## 🎯 **Let's Code!**
-
-1. **Download Materials:** [Lesson 4 Resources](https://drive.google.com/file/d/1nb5QadNC2Z1x2oqH9zIMZFVbYjarM5Br/view)
-2. **Open in VS Code** (Use the `class04` folder).
-3. **Skip live server for now** – manually refresh the browser to see changes.
-
----
-
-## 🏠 **Homework**
-✅ **Simple Site Lab** – [Preview Here](https://communitytaught.org/img/resources/simple-site-lab.png)  
-✅ **Read CSS Layout Basics** – [Learn Layout](https://learnlayout.com)  
-
-📌 **Pro Tip:** Use **MDN Web Docs** for reference: [Google "CSS + MDN"](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-🚀 Happy Coding! 🎨
-
