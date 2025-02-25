@@ -123,10 +123,13 @@ section {
 
 ## 🏠 **Homework**
 ✅ **Code 3 Simple Layouts** – No Grid or Flexbox, only float.
-✅ **1st Layout:** ![Layout 1](https://communitytaught.org/img/resources/layout1.png)
-✅ **2nd Layout:** ![Layout 2](https://communitytaught.org/img/resources/layout2.png)
-✅ **3rd Layout:** ![Layout 3](https://communitytaught.org/img/resources/layout3.png)
-✅ **Read Shay Hower** – [Responsive Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)  
+| Layout | Preview |
+|--------|---------|
+| **1st Layout** | [![Layout 1](https://communitytaught.org/img/resources/layout1.png)](https://communitytaught.org/img/resources/layout1.png) |
+| **2nd Layout** | [![Layout 2](https://communitytaught.org/img/resources/layout2.png)](https://communitytaught.org/img/resources/layout2.png) |
+| **3rd Layout** | [![Layout 3](https://communitytaught.org/img/resources/layout3.png)](https://communitytaught.org/img/resources/layout3.png) |
+✅ **Read Shay Howe** – [Responsive Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
+ 
 
 ---
 
