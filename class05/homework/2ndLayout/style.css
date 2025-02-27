@@ -14,7 +14,7 @@ header, footer {
 
 .one div {
   float: left;
-  width: 33.33%;
+  width: 100%;
   height: 200px;
   background-color: #f4f4f4;
   border: 1px solid #ccc;
@@ -28,6 +28,10 @@ header, footer {
   background-color: #e4e4e4;
   border: 1px solid #ccc;
   text-align: center;
-  width: 50%;
+  width: 33.33%;
   line-height: 300px;
+}
+
+.two div + div {
+  width: 66.67%;
 }
