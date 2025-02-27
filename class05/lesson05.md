@@ -69,6 +69,10 @@ We will create a layout with a **header, footer, and three sections**.
 
 #### **CSS Styling**
 ```css
+* {
+box-sizing: border-box;
+}
+
 header, footer {
   background-color: #333;
   color: white;
@@ -79,12 +83,12 @@ header, footer {
 
 section {
   float: left;
-  width: 33%;
+  width: 33.3333%;
   height: 300px;
   background-color: #f4f4f4;
   border: 1px solid #ccc;
   text-align: center;
-  line-height: 300px; /* Centering content */
+  line-height: 300px;
 }
 ```
 
@@ -106,12 +110,14 @@ section {
 }
 ```
 
----
-
-## 🏆 **Homework: Create 3 Simple Layouts**
-1. **A blog post layout** with a header, sidebar, and main content.
-2. **A portfolio grid** with multiple image sections.
-3. **A card-based UI** similar to a product listing page.
+## 🏠 **Homework**
+✅ **Code 3 Simple Layouts** – No Grid or Flexbox, only float.
+| Layout | Preview |
+|--------|---------|
+| **1st Layout** | [![Layout 1](https://communitytaught.org/img/resources/layout1.png)](https://communitytaught.org/img/resources/layout1.png) |
+| **2nd Layout** | [![Layout 2](https://communitytaught.org/img/resources/layout2.png)](https://communitytaught.org/img/resources/layout2.png) |
+| **3rd Layout** | [![Layout 3](https://communitytaught.org/img/resources/layout3.png)](https://communitytaught.org/img/resources/layout3.png) |
+✅ **Read Shay Howe** – [Responsive Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
 
 ---
 
@@ -119,14 +125,7 @@ section {
 - The **Box Model** determines how elements take up space.
 - `float` can create **multi-column layouts**, but Flexbox and Grid are preferred today.
 - `box-sizing: border-box;` ensures accurate width calculations.
-- `clear: both;` prevents floating issues.
-
-## 🏠 **Homework**
-✅ **Code 3 Simple Layouts** – No Grid or Flexbox, only float.
-✅ **1st Layout:** ![Layout 1](https://communitytaught.org/img/resources/layout1.png)
-✅ **2nd Layout:** ![Layout 2](https://communitytaught.org/img/resources/layout2.png)
-✅ **3rd Layout:** ![Layout 3](https://communitytaught.org/img/resources/layout3.png)
-✅ **Read Shay Hower** – [Responsive Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)  
+- `clear: both;` prevents floating issues. 
 
 ---
 

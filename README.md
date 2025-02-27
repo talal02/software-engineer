@@ -71,7 +71,7 @@ You can learn more about the course here: [100Devs Official Website](https://100
 
 ---
 
-## 🙏 Credits
+## 🙏 Credits 
 All credit for the course content goes to **Leon Noel**, the creator of **100Devs**. I'm simply following along with his lessons and creating these notes to reinforce my learning. If you're interested in joining the course, check out the [100Devs YouTube channel](https://www.youtube.com/c/LeonNoel) for the full playlist.
 
 ---
