@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  height: 150px;
+  clear: both;
+  padding: 10px;
+  line-height: 120px;
+}
+
+.one div {
+  float: left;
+  width: 20%;
+  height: 400px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 400px;
+}
+
+div.second {
+  width: 40%;
+}
