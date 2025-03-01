@@ -117,7 +117,7 @@ section {
 | **1st Layout** | [![Layout 1](https://communitytaught.org/img/resources/layout1.png)](https://communitytaught.org/img/resources/layout1.png) |
 | **2nd Layout** | [![Layout 2](https://communitytaught.org/img/resources/layout2.png)](https://communitytaught.org/img/resources/layout2.png) |
 | **3rd Layout** | [![Layout 3](https://communitytaught.org/img/resources/layout3.png)](https://communitytaught.org/img/resources/layout3.png) |
-✅ **Read Shay Howe** – [Responsive Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
+✅ **Read Shay Howe** – [Responsive Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/) | [Summary](./responsive-web-design.md)
 
 ---
 
