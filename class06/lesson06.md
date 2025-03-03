@@ -48,5 +48,5 @@ p {
 - Simple Styles:
 - Color: Words (yellow), Hex (#ff0), RGBA (rgb(255, 255, 0, 1)), HSLA (hsl(60, 100%, 50%, 1))
 - Fonts: font-family (Arial, sans-serif), font-size (16px), font-weight (bold)
-- Use MDN for CSS Reference
+- Use MDN for CSS Reference (https://developer.mozilla.org/en-US/docs/Web/CSS)
 - Also, read https://learn.shayhowe.com/advanced-html-css/ for more details.
