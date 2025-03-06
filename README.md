@@ -69,6 +69,15 @@ You can learn more about the course here: [100Devs Official Website](https://100
   - `clear: both;` helps manage float-related layout issues.
   - Using `box-sizing: border-box;` ensures accurate width calculations.
 
+### [Lesson 06: Review HTML & CSS](./class06/lesson06.md)
+- **What You'll Learn**:
+- Review HTML Fundamentals, CSS Fundamentals, Box Model, Float, Three Simple Layouts, Responsive Basics.
+- Separation of concerns: HTML = Structure, CSS = Style.
+- The Box Model is crucial for element spacing and layout.
+- Floats were used for layout but are now replaced by Flexbox & Grid.
+- Responsive design ensures websites work on all devices.
+- Media queries allow styling based on screen size.
+
 ---
 
 ## 🙏 Credits 
