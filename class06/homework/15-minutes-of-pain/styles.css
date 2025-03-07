@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 200px;
+  background-color: aqua;
+}
+
+footer {
+  height: 200px;
+  clear: both;
+  background-color: blueviolet;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section {
+  height: 300px;
+  background-color: burlywood;
+  border: 1px solid black;
+  float: left;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 49.9%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    width: 33.19%;
+  }
+}
