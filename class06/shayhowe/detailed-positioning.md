@@ -27,8 +27,8 @@
   ```css
   .box-set { background: #eaeaed; }
   .box { background: #2db34a; float: left; margin: 1.858736059%; width: 29.615861214%; }
-
   ```
+
   - **Problem**: `.box-set` has a height of 0 because all child elements are floated.
 
 ---
