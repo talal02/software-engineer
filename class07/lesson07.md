@@ -16,6 +16,7 @@
 
 - Most of us aren't comfortable with networking.
 - Read book "How to Win Friends and Influence People" by Dale Carnegie.
+
 - Start with this book.
 
 ## How to meet people
