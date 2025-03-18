@@ -18,4 +18,3 @@
 
 ## How to meet people
 - Meetup.com
-
