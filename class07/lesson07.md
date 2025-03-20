@@ -22,3 +22,14 @@
 ## How to meet people
 
 - Meetup.com
+
+## Maintain an excel sheet of people you meet
+
+- Name, Date, Contact, Notes, Follow up, Spark (One thing you remember about them)
+- Always follow up with them after every month.
+- Create google alerts for them.
+- Send them articles that they might like.
+- Send them a thank you note.
+
+## Coming back to Code (CSS) - Class 07 Follow Along Materials
+- Complete The Box Model Example
