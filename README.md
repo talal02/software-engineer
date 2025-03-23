@@ -78,6 +78,17 @@ You can learn more about the course here: [100Devs Official Website](https://100
 - Responsive design ensures websites work on all devices.
 - Media queries allow styling based on screen size.
 
+### [Lesson 07: Learn Responsive CSS & Networking](./class07/lesson07.md)
+- **What You'll Learn**:
+  - Networking strategies: Build connections, LinkedIn etiquette, and relationship progression.
+  - Responsive CSS: EMs vs. REMs, viewport meta tag, and Flexbox basics.
+  - Tools for organizing and maintaining your network.
+- **Key Takeaways**:
+  - Networking is key to unlocking job opportunities; start with coffee chats and follow-ups.
+  - Use **REMs** for predictable font sizing and the **viewport meta tag** for responsive design.
+  - **Flexbox** simplifies layout creation with properties like `space-between` and `center`.
+  - Track connections with tools like Excel or CRM, and send thank-you notes.
+
 ---
 
 ## 🙏 Credits 
