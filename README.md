@@ -97,6 +97,7 @@ All credit for the course content goes to **Leon Noel**, the creator of **100Dev
 ---
 
 ## 🚀 How to Use This Repository
+
 1. Click on the lesson links above to view my notes.
 2. Follow along with Leon's videos to get the full context.
 3. Practice the concepts by coding along with the examples.
