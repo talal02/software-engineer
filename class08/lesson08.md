@@ -41,4 +41,14 @@
 - It includes the content (height and width), padding, border, and margin.
 - The box model can be modified using the properties `padding`, `border`, and `margin`.
 
-# Watched till 1:34:00
+
+## Floats
+- Floats are difficult to work with but are still important to know.
+- Floats are used to position elements to the left or right of their container.
+- The `clear` property is used to prevent elements from wrapping around floated elements.
+- WARNING, tonight leon wants to dig deep and find inner value, we are going to write some bad cooode.
+- Be a baddie, why you should write bad code? 
+- Perfection is for closers, we don't wanna spent too much time on this, we want to move fast and break things.
+- We are going to write bad code, and then we are going to fix it.
+- Layout 1, that we are gonna code is TechCrunch, and we are going to use floats.
+- 
