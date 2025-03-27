@@ -29,8 +29,22 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header nav > * {
+  float: left;
+  width: 10%;
+  margin: 0 5%;
+  list-style: none;
+}
 
+header nav li {
+  float: left;
+  width: 33%;
+}
+
+main > section {
+  width: 50%;
+  float: left;
+  height: 600px;
 }
 
 footer {
